@@ -1,41 +1,24 @@
-FRONT-END TRACK
-STAGE ONE TASK
+# Tasks Repository
 
-Task: Frontend Page Creation with Specific Elements
+This repo holds all tasks done in the ZURIxHNG Internship/Training
 
-Objective: Develop and host a web page using HTML, CSS and JS that showcases specific personal and real-time data attributes. Each required element should have a specified data-testid attribute for easy identification and testing.
+## Task One
 
-Requirements:
+- **Folder:** [taskOne](taskOne/)
+- **Description:** Task One involves creating a basic webpage that showcases personal and real-time data attributes using HTML, CSS, and JS.
 
-- Slack Name:
-  Display your Slack name prominently.
-  Attribute: data-testid="slackUserName"
+## How to Access Each Task
 
-- Slack Display Picture:
-  Showcase your Slack profile picture.
-  The image's alt attribute should be your Slack username.
-  Attribute: data-testid="slackDisplayImage"
+To access the code and details for each task, simply click on the respective folder links above.
 
-- Current Day of the Week:
-  Indicate the current day of the week (e.g., Monday, Tuesday).
-  Attribute: data-testid="currentDayOfTheWeek"
+## Authors:
 
-- Current UTC Time:
-  Display the current UTC time in milliseconds,.
-  Attribute: data-testid="currentUTCTime"
+- [Fredrick Eneye Tania-Amanda](https://github.com/crystal4000)
 
-- Track:
-  Mention your track (e.g Frontend).
-  Attribute: data-testid="myTrack"
+# Contribution
 
-- GitHub URL:
-  Provide a clickable link to your GitHub repository where the source code for this task resides.
-  Attirbute: data-testid=“githubURL”
+If you'd like to contribute to this repository or report issues, please follow GitHub's standard procedures for pull requests and issues.
 
-SUBMISSION GUIDE:
-Submit your task through the designated submission form at the bottom of this announcement. Ensure you've:
+# License
 
-- Hosted the page on a platform of your choice (e.g., Vercel, GitHub Pages, Netlify).
-- Double-checked all requirements and acceptance criteria.
-- Provide the hosted page's URL in the submission form.
-- Before finalising your submission, thoroughly review your work to ensure accuracy, functionality, and adherence to the specified guidelines.
+This repository is licensed under the MIT License.
