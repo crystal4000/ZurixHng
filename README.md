@@ -4,7 +4,7 @@ This repo holds all tasks done in the ZURIxHNG Internship/Training
 
 ## Task One
 
-- **Folder:** [taskOne](taskOne/)
+- **Folder:** [taskOne](https://github.com/crystal4000/ZurixHng/tree/main/TaskOne)
 - **Description:** Task One involves creating a basic webpage that showcases personal and real-time data attributes using HTML, CSS, and JS.
 
 ## How to Access Each Task
