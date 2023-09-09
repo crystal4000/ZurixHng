@@ -21,17 +21,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentDayOfWeekElement = document.querySelector(
     "[data-testid='currentDayOfTheWeek']"
   );
-  currentDayOfWeekElement.textContent =
-    "Current Day of the Week: " + currentDayOfWeek;
+  currentDayOfWeekElement.textContent = currentDayOfWeek;
 
   // Current UTC Time
   const currentUTCTimeElement = document.querySelector(
     "[data-testid='currentUTCTime']"
   );
-  currentUTCTimeElement.textContent =
-    "Current UTC Time (in milliseconds): " + Date.now();
+  currentUTCTimeElement.textContent = Date.now();
 
   // Track
   const trackElement = document.querySelector("[data-testid='myTrack']");
-  trackElement.textContent = "Track: Frontend";
+  trackElement.textContent = "Frontend";
 });
