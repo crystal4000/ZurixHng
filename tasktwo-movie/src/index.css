@@ -277,6 +277,10 @@ body {
   color: rgba(190, 18, 60, 1);
 }
 
+.featured-movies .movie .rating {
+  color: rgba(17, 24, 39, 1);
+}
+
 footer .socials {
   width: 30%;
 }

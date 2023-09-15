@@ -55,6 +55,13 @@ const MovieDetails = ({ match }) => {
   const trailerUrl = movieDetails.videos.results.find(
     (video) => video.type === "Trailer" && video.site === "YouTube"
   );
+
+  const releaseDate = new Date(movieDetails.release_date); // Parse the release date
+
+  // Format the date as "YYYY-MM-DD"
+  const formattedReleaseDate = `${releaseDate.getUTCFullYear()}-${String(
+    releaseDate.getUTCMonth() + 1
+  ).padStart(2, "0")}-${String(releaseDate.getUTCDate()).padStart(2, "0")}`;
   return (
     <>
       <div
@@ -153,10 +160,10 @@ const MovieDetails = ({ match }) => {
                     <span data-testid="movie-title"> {movieDetails.title}</span>
                     •{" "}
                     <span data-testid="movie-release-date">
-                      {movieDetails.release_date.split("-")[0]}
+                      {formattedReleaseDate}
                     </span>{" "}
                     • PG-13 •{" "}
-                    <span data-testid="movie-runtime">{`${movieDetails.runtime}m`}</span>
+                    <span data-testid="movie-runtime">{`${movieDetails.runtime}`}</span>
                   </h3>
                   <div className="movie-genre">
                     {movieDetails.genres.map((genre) => (
