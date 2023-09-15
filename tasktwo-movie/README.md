@@ -1,6 +1,53 @@
-# Getting Started with Create React App
+# MovieBox Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MovieBox is a web application that allows users to explore top-rated movies, search for movies, and view movie details. This README provides clear instructions on how to run the MovieBox project locally on your machine.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js: Make sure you have Node.js installed. You can download it from [https://nodejs.org](https://nodejs.org).
+
+## Getting Started
+
+To get MovieBox up and running on your local machine, follow these steps:
+
+- ### Clone the Repository:
+
+  Clone the MovieBox repository to your local machine using Git:
+  `git clone https://github.com/your-username/MovieBox.git`
+
+- ### Navigate to the Project Directory:
+
+  Change your current directory to the cloned repository:
+  `cd MovieBox`
+
+- ### Install Dependencies:
+
+  Install the project's dependencies using npm (Node Package Manager):
+  `npm install`
+
+- ### API Key Configuration:
+
+  You need to obtain an API key from `The Movie Database (TMDb)` to fetch movie data. Once you have your API key, open the api.js file located in the src/api directory and replace the apiKey variable with your API key.
+
+- ### Run the Application:
+  Start the development server: `npm start`
+
+## Usage
+
+- Home Page: The home page displays top-rated movies, a search bar, and movie details when clicked.
+
+- Search: Use the search bar at the top to search for movies. The search results will be displayed below the search bar.
+
+- Movie Details: Click on a movie poster or title to view detailed information about that movie, including its overview, genre, and more.
+
+## Features
+
+- View top-rated movies.
+- Search for movies by title.
+- View detailed information about each movie.
+- Mark movies as favorites (favorites are stored in local storage).
 
 ## Available Scripts
 
