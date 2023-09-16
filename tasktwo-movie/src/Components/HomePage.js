@@ -187,7 +187,12 @@ const HomePage = () => {
                   ? searchResults
                   : topMovies
                 ).map((movie) => (
-                  <MovieCard key={movie.id} movie={movie} genres={genres} />
+                  <MovieCard
+                    key={movie.id}
+                    movie={movie}
+                    genres={genres}
+                    data-testid="movie-card"
+                  />
                 ))}
               </div>
             )}

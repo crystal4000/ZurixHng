@@ -45,7 +45,7 @@ const MovieCard = ({ movie, genres }) => {
         data-testid="movie-card"
       >
         <Link to={`/movies/${movie.id}`}>
-          <div className="movie-poster" data-testid="movie-poster">
+          <div className="movie-poster">
             <div className="position-relative">
               {/* Movie poster */}
               <img
