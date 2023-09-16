@@ -21,7 +21,7 @@ const HomePage = () => {
     const fetchData = async () => {
       try {
         const topMoviesResponse = await fetchTopMovies();
-        setTopMovies(topMoviesResponse.results.slice(0, 12));
+        setTopMovies(topMoviesResponse.results.slice(0, 10));
 
         const genresResponse = await fetchGenres();
         setGenres(genresResponse);
