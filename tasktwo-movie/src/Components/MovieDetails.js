@@ -183,6 +183,7 @@ const MovieDetails = ({ match }) => {
               <div className="movie-people row mt-2 pb-2">
                 <div className="col-sm-8">
                   <p data-testid="movie-overview">{movieDetails.overview}</p>
+
                   <p>
                     Director :{" "}
                     <span>
