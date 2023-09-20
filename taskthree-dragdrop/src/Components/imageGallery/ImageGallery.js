@@ -106,7 +106,7 @@ const ImageGallery = () => {
       setItems(searchResults);
       setTimeout(() => {
         setLoading(false);
-      }, 5000);
+      }, 2000);
     } else {
       // If the search query is empty, fetch random photos
       setLoading(false);
