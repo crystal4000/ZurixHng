@@ -8,6 +8,7 @@
   font-family: "Work Sans", sans-serif;
 }
 
+/*Home*/
 .navbar-toggler,
 .navbar-toggler:hover,
 .navbar-toggler:focus,
@@ -130,6 +131,8 @@ footer a {
   color: #fff;
   margin-top: 15px;
 }
+
+/*Get Started*/
 
 @media only screen and (max-width: 768px) {
   header .nav-link,

@@ -36,7 +36,7 @@ const Home = () => {
                 </a>
               </Nav>
               <Nav>
-                <a href="/" className="get-started me-3 mt-sm-2">
+                <a href="/get-started" className="get-started me-3 mt-sm-2">
                   Get Started
                 </a>
               </Nav>
