@@ -48,3 +48,74 @@ header .toggle-main a {
   border-radius: 8px;
   background-color: rgba(18, 11, 72, 1);
 }
+
+#features .headline,
+#howitworks h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: rgba(20, 20, 20, 1);
+}
+
+#features .col-6 h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34px;
+  color: rgba(27, 35, 61, 1);
+}
+
+#features p,
+#howitworks p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(97, 97, 99, 1);
+}
+
+#howitworks h4 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  color: rgba(27, 35, 61, 1);
+}
+
+#howitworks .icon-bg {
+  background: rgba(18, 11, 72, 1);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #fff;
+}
+
+footer {
+  background: rgba(18, 11, 72, 1);
+}
+
+footer span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+}
+
+footer h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #fff;
+  margin-top: 15px;
+}
