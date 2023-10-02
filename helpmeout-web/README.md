@@ -9,8 +9,8 @@
 - Develop a feature to submit the recorded content to a specific endpoint.
 - Make it user-friendly and easy to use.
 
-Link to hosted app: [here](https://ephemeral-eclair-86e52f.netlify.app/)
-Link to extension repo: [here] (https://github.com/crystal4000/ZurixHng/tree/main/taskfive-chrome-extension)
+- Link to hosted app: [here](https://ephemeral-eclair-86e52f.netlify.app/)
+- Link to extension repo: [here] (https://github.com/crystal4000/ZurixHng/tree/main/taskfive-chrome-extension)
 
 # Getting Started with Create React App
 
