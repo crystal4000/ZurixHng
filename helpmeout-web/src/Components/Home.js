@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <header className="mt-3">
-        <Navbar>
+        <Navbar expand="lg">
           <Container>
             <Navbar.Brand>
               <img
@@ -25,7 +25,7 @@ const Home = () => {
               />
               <span> HelpMeOut</span>
             </Navbar.Brand>
-
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mx-auto">
                 <a class="nav-link" href="#features">
@@ -35,16 +35,12 @@ const Home = () => {
                   How It Works
                 </a>
               </Nav>
+              <Nav>
+                <a href="/" className="get-started me-3 mt-sm-2">
+                  Get Started
+                </a>
+              </Nav>
             </Navbar.Collapse>
-            <div className="toggle-main justify-content-end align-items-center">
-              <a
-                href="/"
-                className="text-decoration-none text-base me-3 mt-sm-2"
-              >
-                Get Started
-              </a>
-              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            </div>
           </Container>
         </Navbar>
       </header>
@@ -65,7 +61,7 @@ const Home = () => {
                 Install HelpMeOut <i class="ms-2 bi bi-arrow-right"></i>
               </button>
             </div>
-            <div className="col-6 mx-auto">
+            <div className="col-6 col-sm-12 mx-auto">
               <img src={Hero} alt="hero" className="img-fluid" />
             </div>
           </div>
@@ -140,8 +136,8 @@ const Home = () => {
 
       <div id="howitworks" className="container mt-5">
         <h3 className="text-center">How It Works</h3>
-        <div className="row mt-5">
-          <div className="col-4">
+        <div className="row mt-5 justify-content-center">
+          <div className="col-4 ">
             <div className="icon-bg mx-auto mb-3">1</div>
             <h4 className="text-center">Record Screen</h4>
             <p className="text-center">
@@ -150,7 +146,7 @@ const Home = () => {
             </p>
             <img src={Record} alt="Record" className="img-fluid" />
           </div>
-          <div className="col-4">
+          <div className="col-4 ">
             <div className="icon-bg mx-auto mb-3">2</div>
             <h4 className="text-center">Share Your Recording</h4>
             <p className="text-center">
@@ -159,7 +155,7 @@ const Home = () => {
             </p>
             <img src={Record} alt="Record" className="img-fluid" />
           </div>
-          <div className="col-4">
+          <div className="col-4 ">
             <div className="icon-bg mx-auto mb-3">3</div>
             <h4 className="text-center">Learn Effortlessly</h4>
             <p className="text-center">

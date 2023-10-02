@@ -8,6 +8,16 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: 0 !important;
+  font-size: 1rem !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
 header .navbar-brand span {
   font-size: 16px;
   font-weight: 700;
@@ -22,11 +32,12 @@ header .nav-link {
   color: rgba(0, 0, 0, 1);
 }
 
-header .toggle-main a {
+header .get-started {
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
   color: rgba(18, 11, 72, 1);
+  text-decoration: none;
 }
 
 .hero h2 {
@@ -118,4 +129,80 @@ footer a {
   line-height: 19px;
   color: #fff;
   margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  header .nav-link,
+  header .get-started {
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 45px;
+  }
+
+  .hero .col-6 {
+    margin-top: 0 !important;
+  }
+
+  .hero button {
+    padding: 17px !important;
+  }
+
+  #features .col-6 {
+    margin: 20px 0;
+    width: 100% !important;
+  }
+
+  #features .col-6 h3 {
+    font-size: 22px;
+  }
+
+  #features .col-6 p,
+  #howitworks p {
+    font-size: 15px;
+  }
+
+  #howitworks .col-4 {
+    width: 50% !important;
+  }
+
+  #howitworks .row {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .hero .row {
+    padding-top: 0 !important;
+  }
+  .hero .col-6 {
+    width: 100% !important;
+  }
+
+  #features {
+    margin-top: 0 !important;
+  }
+  #features .col-6 h3 {
+    font-size: 20px;
+  }
+  #howitworks .col-4 {
+    width: 100% !important;
+  }
+
+  footer .col-3 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  footer .col-3 > .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .col-3 h5,
+  footer .col-3 a {
+    text-align: center;
+  }
 }
