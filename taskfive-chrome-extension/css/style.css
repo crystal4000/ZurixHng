@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@700&family=Work+Sans&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.content {
+  padding: 10px;
+  min-width: 300px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.content .navbar-brand h2 {
+  font-size: 16px;
+  font-family: "Sora", sans-serif !important;
+  font-weight: 700;
+  color: rgba(18, 11, 72, 1);
+  margin-top: 5px;
+}
+
+.content .nav-icon .bi-gear {
+  color: rgba(18, 11, 72, 1) !important;
+  font-size: larger;
+}
+
+.content .nav-icon .bi-x-circle {
+  color: rgba(182, 179, 198, 1);
+  font-size: larger;
+}
+
+.content .extension-deets {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(18, 11, 72, 1) !important;
+}
+
+.content .screen-type .full-screen,
+.content .screen-type .current-tab {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgba(182, 179, 198, 1);
+  border: 0;
+  background: none;
+}
+
+/* .content .screen-type .current-tab:hover,
+.content .screen-type .full-screen:hover {
+  color: #120b48;
+  font-size: 14px;
+  font-weight: 600;
+} */
+
+.content .screen-type .current-tab {
+  color: #120b48;
+  font-weight: 600;
+}
+
+.content .screen-type .full-screen .monitor {
+  background: url("https://api.iconify.design/solar/monitor-outline.svg?color=%23928fab")
+    no-repeat center center / contain;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+/* .content .screen-type .full-screen .monitor:hover {
+  background: url("https://api.iconify.design/solar/monitor-outline.svg?color=%23120b48")
+    no-repeat center center / contain;
+} */
+
+.content .screen-type .current-tab .copy {
+  /* background: url("https://api.iconify.design/ci/copy.svg?color=%23928fab")
+    no-repeat center center / contain; */
+  background: url("https://api.iconify.design/ci/copy.svg?color=%23120b48")
+    no-repeat center center / contain;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+/* .content .screen-type .current-tab .copy:hover {
+  background: url("https://api.iconify.design/ci/copy.svg?color=%23120b48")
+    no-repeat center center / contain;
+} */
+
+.content .controls .camera,
+.content .controls .audio {
+  border-radius: 12px;
+  border: 1.4px solid rgba(16, 10, 66, 1);
+  padding: 12px;
+}
+
+.content .controls .camera span,
+.content .controls .audio span {
+  color: rgba(16, 10, 66, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.content .button button {
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background: rgba(16, 10, 66, 1);
+  color: white;
+  width: 100%;
+}
+
+.button button:hover {
+  box-shadow: 1px 0px 10p #eee;
+}
