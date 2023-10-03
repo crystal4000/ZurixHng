@@ -5,6 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -101,7 +102,7 @@ const Login = () => {
               </div>
             </Form>
             {/* Registration link (commented out) */}
-            {/* <p className="text-center mt-4">
+            <p className="text-center mt-4">
               Don't have an account?{" "}
               <Link
                 to="/register"
@@ -109,7 +110,7 @@ const Login = () => {
               >
                 Register
               </Link>
-            </p> */}
+            </p>
           </div>
         </div>
       </div>

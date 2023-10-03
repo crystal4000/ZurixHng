@@ -2,6 +2,12 @@
 
 This is a simple web application for browsing and sorting images from Unsplash. Users can search for images by tags and sort them by dragging and dropping. The drag and drop is implemented with `dnd-kit`
 
+## Deployed Link:
+
+[Link](https://beamish-dodol-a3576c.netlify.app/)
+Username: user@gmail.com
+Password:1Password
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
